@@ -32,7 +32,7 @@ const INVALID_INLINE_CHARS = [
 
 exports.activate = function(context) {
   const whitespaceDecorationType = vscode.window.createTextEditorDecorationType({
-    backgroundColor: 'rgba(255,80,0,0.75)'
+    backgroundColor: 'rgba(77, 123, 136, 0.75)'
   });
 
   vscode.window.onDidChangeActiveTextEditor(editor => {
